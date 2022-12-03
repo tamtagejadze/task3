@@ -30,6 +30,7 @@ nav li {
 .left input {
     width: 250px;
     height: 25px;
+    padding-left: 10px;
 }
 
 .icon {

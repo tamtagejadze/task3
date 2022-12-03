@@ -19,7 +19,10 @@ function FriendList() {
     setfriends(removeUser);
   }
 
-  const loadMore =() => {
+  function loadMore() {
+    if(page==2){
+      return ('')
+    }
     setpage(page+1)
   }
   return (
